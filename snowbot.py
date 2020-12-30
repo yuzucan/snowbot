@@ -28,8 +28,11 @@ async def on_message(message):
         return
 
 
-    if str(message.content).lower() in snowbot_commands.command_question:
-        await message.channel.send(snowbot_commands.command_list[str(message.content).lower()])
+    #if str(message.content).lower() in snowbot_commands.command_question:
+    #    await message.channel.send(snowbot_commands.command_list[str(message.content).lower()])
+    for i in snowbot_commands.command_list.keys():
+        if i  in str(message.content).lower():
+            await message.channel.send(snowbot_commands.command_list[i])
 
     if 'snowbot' == str(message.content).lower():
         randomessage = random.choice(snowbot_commands.random_reply_list)
