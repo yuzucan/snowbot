@@ -2,7 +2,8 @@ import discord
 import random
 import snowbot_commands
 
-TOKEN = "NDU0NzU1ODE3MTc5MDU0MDgx.X-j7Zw.g5rbFrNtzat_Qr479KM7cL4NFW4"
+TOKEN = "saqss
+"
 client = discord.Client()
 hornyteen_id = 777795314706939915
 
