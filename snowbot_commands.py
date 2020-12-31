@@ -4,7 +4,7 @@ command_list = {
     'gn' : 'good night😴'
 }
 
-command_question = ['hello' , 'gm' , 'gn']
+
 
 random_reply_list = [
 '☃️do you want to build a snowman?☃️',
@@ -15,5 +15,13 @@ random_reply_list = [
 ';-;',
 'eheu!',
 'hello there!',
+'mEoW',
+'stardust crusaders',
+'wdym by snowbot?',
+'anyone want to play with me',
+
 
 ] 
+
+no_respond_channels = [777795314706939915 , 762164864214630471]
+authorised = [454755817179054081 , 551616571672625162 , ]
