@@ -4,7 +4,6 @@ import snowbot_commands
 
 TOKEN = "Your TOKEN here"
 client = discord.Client()
-hornyteen_id = 777795314706939915
 
 autosend_delmsg = False
 
